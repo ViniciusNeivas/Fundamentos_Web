@@ -1,0 +1,83 @@
+/* ESTILOS DA PÁGINA INDEX.HTML */
+
+.center {
+
+    text-align: center;
+}
+
+/* FlexBox */
+.container {  
+
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Menu Topo da página */
+#menu li {
+
+    display: inline;
+    padding: 15px;            
+
+}
+
+/* Tirou o traço de link */
+#menu li a {
+
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+
+/* Efeito em cima do link */
+#menu li a:hover {
+
+    color: gray;
+
+}
+
+/* Texto */
+.p-30 {
+
+    padding: 30px;
+}
+
+.br-50 {
+
+    border-radius: 50%;
+    
+}
+
+.wh {
+
+    width: 300px;
+    height:300px;
+}
+
+.tm-social {
+
+    width: 50px;
+    height:50px;
+    padding: 10px;
+
+}
+
+
+
+/* ESTILO DA PÁGINA CONTATO.HTML */ 
+
+
+.ml-50 {
+
+    margin-left: 50px;
+
+}
+
+.bg-01 {
+
+    background-color: rgb(245, 210, 155);
+
+
+}
