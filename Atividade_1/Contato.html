@@ -31,25 +31,37 @@
     <h1>ENTRE EM CONTATO COMIGO </h1>
     <form>
 
+            <!-- NOME -->
+
 <label for="nome">Nome:</label> <br>
-<input type="text"id="nome" >
+<input type="text"id="nome" onkeyup='validaNome()' >
+
+<div id="txtNome"> </div>
 
 <br>
-<br>
+
+            <!-- E-MAIL -->
 
 <label for="email">E-Mail:</label> <br>
-<input type="text"id="email" >
+<input type="text"id="email" onkeyup="validaEmail()">
 
+
+<div id="txtEmail"> </div>
 <br>
-<br>
+
+
+            <!-- ASSUNTO -->
 
 <label for="assunto">Assunto:</label> <br>
-<textarea name="assunto" id="assunto" cols="60" rows="5" ></textarea>
+<textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup="validaAssunto()" ></textarea>
 
+<div id="txtAssunto"> </div>
 <br>
 <br>
 
-<button>Enviar</button>
+            <!-- ENVIAR  -->
+
+<button onclick="enviar">Enviar</button>
 
 </div>  
 
@@ -57,16 +69,19 @@
 
 <div class="ml-50">
 
+            <!-- ENDEREÇO  -->
 
 <h2>ENDEREÇO:</h2>
 
 <p>Avenida: Paulista Número:1000</p>
 <p>São Paulo - SP</p>
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0980322469036!2d-46.65412628576191!3d-23.564922384681072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5994f2e15a7d%3A0xdeb92126793e5e90!2sAv.%20Paulista%2C%201000%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-100!5e0!3m2!1spt-BR!2sbr!4v1650307317136!5m2!1spt-BR!2sbr"
+            <!-- MAPA -->
+<iframe 
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0980322469036!2d-46.65412628576191!3d-23.564922384681072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5994f2e15a7d%3A0xdeb92126793e5e90!2sAv.%20Paulista%2C%201000%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-100!5e0!3m2!1spt-BR!2sbr!4v1650307317136!5m2!1spt-BR!2sbr"
 
 width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-
+id="mapa" onmousemove="mapaZoom ()" onmouseout="mapaNormal()"
 
 ></iframe>
 
@@ -74,10 +89,14 @@ width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" ref
 </div>
 </div>
 
+                <!-- RODAPÉ -->
+
 <footer>
 
     <div class="center">
         
+                <!-- LINKEDIN -->
+
     <a  href="https://www.linkedin.com/in/vin%C3%ADcius-dos-santos-neivas-59a275238/"
         target="_blank">
         <img class= "tm-social p30" 
@@ -85,6 +104,8 @@ width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" ref
         alt="Icone Linkedin">
     </a>
     
+                <!-- GITHUB -->
+
     <a  href="https://github.com/ViniciusNeivas" 
         target="_blank">
         <img class= "tm-social p30" 
@@ -92,6 +113,8 @@ width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" ref
         alt="Icone GitHub">
     </a>
     
+                <!-- INSTAGRAM -->
+
        <a  href="https://www.instagram.com/vinicius.westside/"
        target="_blank">
         <img class= "tm-social p30" 
@@ -99,6 +122,7 @@ width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" ref
         alt="Icone Instagram">
     </a> 
 
+                <!-- FACEBOOK -->
 
     <a href="https://www.facebook.com/vinicius.dos.s.neivas/"
         target="_blank">    
@@ -108,6 +132,8 @@ width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" ref
     </a>
     </div>
     
+                <!-- COPYRIGHT -->
+
     <div class="center">
         
         <p>Todos Os Direitos Reservados<p>Vinícius Neivas &COPY; </p> </p>
@@ -117,6 +143,9 @@ width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" ref
     </div>
     </footer>
 
+                <!-- LINK COM O JAVA SCRITP -->
+
+    <script src="assets/js/script.js"></script>
 
 </body>
 </html>
