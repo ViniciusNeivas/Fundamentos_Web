@@ -5,6 +5,28 @@
     text-align: center;
 }
 
+.t-h1 {
+
+    text-align: center;
+    font-size: 60px;
+}
+
+.t-h2 {
+
+    text-align: center;
+    font-size: 40px;
+}
+
+.conteudo {
+
+    font-size: 20px;
+    justify-content: center;
+    font-style: italic;
+    font-family: 'Brush Script MT', cursive;
+
+}
+
+
 /* FlexBox */
 .container {  
 
@@ -43,6 +65,8 @@
 
     padding: 30px;
 }
+
+/* Borda da foto */
 
 .br-50 {
 
