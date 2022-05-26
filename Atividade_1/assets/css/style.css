@@ -8,18 +8,18 @@
 .t-h1 {
 
     text-align: center;
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .t-h2 {
 
     text-align: center;
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .conteudo {
 
-    font-size: 20px;
+    font-size: 15px;
     justify-content: center;
     font-style: italic;
     font-family: 'Brush Script MT', cursive;
@@ -28,23 +28,31 @@
 
 .imgCentro{
 
-    display: flex;
-    justify-content: center
+   
+    margin-left: 100px;
 
 }
 
 .vanHalen{
 
     width: 80%;
-    height: 80%;
+    height: 100%;
     border-radius: 20px;
 }
 
 .bateria{
 
-    width: 59%;
-    height: 30%;
+    width: 40%;
+    height: 1%;
     border-radius: 20px;
+    justify-items: center !important;
+}
+
+
+.sherlock{
+
+    border-radius: 20px;
+  
 }
 
 /* FlexBox */
@@ -104,8 +112,8 @@
 
 .wh {
 
-    width: 300px;
-    height:300px;
+    width: 200px;
+    height:200px;
 }
 
 .tm-social {
