@@ -38,6 +38,9 @@
     width: 80%;
     height: 100%;
     border-radius: 20px;
+    justify-items: center !important;
+    margin-left: 40px;
+
 }
 
 .bateria{
@@ -52,7 +55,15 @@
 .sherlock{
 
     border-radius: 20px;
+
   
+}
+
+.muppet{
+
+    width: 350px;
+    height: 200px;
+    border-radius: 20px;
 }
 
 /* FlexBox */
